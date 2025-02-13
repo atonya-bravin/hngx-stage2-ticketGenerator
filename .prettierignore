@@ -1,0 +1,39 @@
+# Ignore Next.js build output
+.next/
+out/
+
+# Ignore dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore TypeScript build output
+dist/
+*.d.ts
+
+# Ignore static exports (if using `next export`)
+export/
+
+# Ignore public assets (optional)
+public/
+
+# Ignore Vercel and deployment files (optional)
+.vercel/
+*.log
+
+# Ignore Prettier config overrides
+.prettierignore
+.prettiercache
+.prettierrc
+
+# Ignore all config files
+*.config.*
+*.d.ts
